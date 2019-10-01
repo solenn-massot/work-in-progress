@@ -16,8 +16,7 @@
     font-family:'star_jediregular';
     font-size:35px;  
     color:#F5F36B ;
-    position:absolute;
-    margin-top:15px;
+    margin-top:-12px;
     margin-left:10px;
     display:block;
     float:left;
@@ -26,7 +25,6 @@
     font-family:'sansationregular';
     font-size:35px;
     color:#F5F36B ; 
-    position:absolute;
     margin-top:25px;
     display:block;
     margin-left:580px;
@@ -35,7 +33,7 @@
     font-family:'star_jediregular';
     font-size:35px;
     color:#F5F36B ; 
-    margin-top:15px;
+    margin-top:-50px;
     display:block;
     float:right;
 }
@@ -47,10 +45,11 @@
     float:right;
     text-align:right;
     width:300px;
-    height:400px;
+    height:150px;
     margin-top: 200px;
     margin-left:750px;
     background-color:rgba(255, 255, 255, 0.507);
+    margin-right:30px;
 }
 body{
     background-image:url("deathstar.jpeg");
@@ -58,4 +57,7 @@ body{
     background-color:black;
     background-repeat: no-repeat;
     background-size: 100% auto;
+}
+#bk{
+    background-color:rgba(255, 255, 255, 0.514);
 }
