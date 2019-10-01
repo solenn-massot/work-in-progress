@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'star_jediregular';
+    src: url('starjedi-webfont.woff2') format('woff2'),
+         url('starjedi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sansationregular';
+    src: url('sansation_regular-webfont.woff2') format('woff2'),
+         url('sansation_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.build{
+    font-family:'star_jediregular';
+    font-size:35px;  
+    color:#F5F36B ;
+    position:absolute;
+    margin-top:15px;
+    margin-left:10px;
+    display:block;
+    float:left;
+}
+.ready{
+    font-family:'sansationregular';
+    font-size:35px;
+    color:#F5F36B ; 
+    position:absolute;
+    margin-top:25px;
+    display:block;
+    margin-left:580px;
+}
+.be{
+    font-family:'star_jediregular';
+    font-size:35px;
+    color:#F5F36B ; 
+    margin-top:15px;
+    display:block;
+    float:right;
+}
+.texte{
+    font-family:'sansationregular';
+    font-size:30px;
+    color:#F5F36B;
+    display:block;
+    float:right;
+    text-align:right;
+    width:300px;
+    height:400px;
+    margin-top: 200px;
+    margin-left:750px;
+    background-color:rgba(255, 255, 255, 0.507);
+}
+body{
+    background-image:url("deathstar.jpeg");
+    background-attachment: fixed;
+    background-color:black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
