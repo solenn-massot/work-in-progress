@@ -46,7 +46,7 @@
     text-align:right;
     width:300px;
     height:150px;
-    margin-top: 200px;
+    margin-top: -130px;
     margin-left:750px;
     background-color:rgba(255, 255, 255, 0.507);
     margin-right:30px;
@@ -60,4 +60,47 @@ body{
 }
 #bk{
     background-color:rgba(255, 255, 255, 0.514);
+}
+img{
+    display:block;
+    float:inherit;
+    margin-top:200px;
+    margin-left:500px;
+    height:104px;
+    width:240px;
+    animation: rotate 1s ;
+    animation-iteration-count: 1;
+  }
+  
+  @keyframes rotate {
+    0% { transform: translate(-1000px, 150px) rotate(0deg); }
+    10% { transform: translate(-900px, -100px) rotate(0deg); }
+    20% { transform: translate(-800px, 100px) rotate(0deg); }
+    30% { transform: translate(-700px, -80px) rotate(0deg); }
+    40% { transform: translate(-600px, 90px) rotate(0deg); }
+    50% { transform: translate(-500px, -70px) rotate(0deg); }
+    60% { transform: translate(-400px, 60px) rotate(0deg); }
+    70% { transform: translate(-300px, -50px) rotate(0deg); }
+    80% { transform: translate(-200px, 40px) rotate(0deg); }
+    90% { transform: translate(-100px, -30px) rotate(0deg); }
+    100% { transform: translate(0px, 20px) rotate(0deg); }
+  }
+
+img:hover{
+    animation: nope 1s;
+    animation-iteration-count:infinite;
+}
+  
+@keyframes nope {
+  0% { transform: translate(800px, 0px) rotate(0deg); }
+  10% { transform: translate(700px, 0px) rotate(0deg); }
+  20% { transform: translate(600px, 0px) rotate(0deg); }
+  30% { transform: translate(500px, 0px) rotate(0deg); }
+  40% { transform: translate(400px, 0px) rotate(0deg); }
+  50% { transform: translate(350px, 0px) rotate(0deg); }
+  60% { transform: translate(300px, 0px) rotate(0deg); }
+  70% { transform: translate(250px, 0px) rotate(0deg); }
+  80% { transform: translate(200px, 0px) rotate(0deg); }
+  90% { transform: translate(150px, 0px) rotate(0deg); }
+  100% { transform: translate(100px, 0px) rotate(0deg); }
 }
