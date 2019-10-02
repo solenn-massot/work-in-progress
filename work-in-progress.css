@@ -139,4 +139,14 @@ body{
         vertical-align: baseline;
         -webkit-font-smoothing: auto;
     }
-    
+    .build, .ready, .be{
+        animation-name: clignote;
+        animation-duration: 1s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+    @keyframes clignote{
+        0% {opacity: 1.0;}
+        50% {opacity: 0.0 ;}
+        100% {opacity: 1.0;}
+    }
